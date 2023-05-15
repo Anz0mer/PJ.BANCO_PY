@@ -6,6 +6,7 @@ O novo banco QuemPoupaTem vai iniciar a sua operação em breve, mas não tem um
 O seu programa deve ser todo desenvolvido em Python.
 
 *Requisitos*
+
 O banco trabalha com dois tipos de conta:
 Comum:
 Cobra taxa de 5% a cada débito realizado
@@ -27,7 +28,7 @@ Transferência Entre Contas
 Sair
 Cada opção deve ser implementada como uma função!
 
-IMPORTANTE: Não se esqueça de que o banco não pode perder as informações se o programa terminar, fechar, parar de funcionar, ou o computador desligar. Todos os dados devem ser salvos de maneira permanente utilizando arquivos binários.
+*IMPORTANTE:* Não se esqueça de que o banco não pode perder as informações se o programa terminar, fechar, parar de funcionar, ou o computador desligar. Todos os dados devem ser salvos de maneira permanente utilizando arquivos binários.
 
 Opção 1 - Usada para criar novos clientes.
 Dados solicitados:
