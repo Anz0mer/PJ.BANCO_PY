@@ -1,11 +1,11 @@
-# Projeto_Banco_Py
+# PJ. BANCO "QUEMPOUPATEM"
 
 Trabalho prático - Banco QuemPoupaTem
 O novo banco QuemPoupaTem vai iniciar a sua operação em breve, mas não tem um sistema bancário estabelecido. Para desenvolver o sistema que controla os clientes, o banco decidiu contratar você.
 
 O seu programa deve ser todo desenvolvido em Python.
 
-*Requisitos*
+## Requisitos
 
 O banco trabalha com dois tipos de conta:
 Comum:
@@ -18,54 +18,70 @@ O sistema criado por você deve funcionar em loop infinito até que se deseje sa
 
 Um menu de opções deve ser sempre apresentado ao operador, contendo as seguintes operações:
 
-Novo Cliente
-Apaga Cliente
-Débito
-Depósito
-Extrato
-Transferência Entre Contas
-‘Operação Livre’
-Sair
+- Novo Cliente
+- Apaga Cliente
+- Débito
+- Depósito
+- Extrato
+- Transferência Entre Contas
+- ‘Operação Livre’
+- Sair
+
 Cada opção deve ser implementada como uma função!
 
-*IMPORTANTE:* Não se esqueça de que o banco não pode perder as informações se o programa terminar, fechar, parar de funcionar, ou o computador desligar. Todos os dados devem ser salvos de maneira permanente utilizando arquivos binários.
+`IMPORTANTE:` Não se esqueça de que o banco não pode perder as informações se o programa terminar, fechar, parar de funcionar, ou o computador desligar. Todos os dados devem ser salvos de maneira permanente utilizando arquivos binários.
 
-Opção 1 - Usada para criar novos clientes.
-Dados solicitados:
+`Opção 1` - Usada para criar novos clientes.
 
-Nome
-CPF
-Tipo de conta (são dois: comum e plus)
-Valor inicial da conta
-Senha do usuário
-Opção 2 - Apaga o cliente pelo CPF
-Opção 3 - Serve para debitar um valor da conta do cliente
 Dados solicitados:
-CPF
-Senha
-Valor
+- Nome
+- CPF
+- Tipo de conta (são dois: comum e plus)
+- Valor inicial da conta
+- Senha do usuário
+
+`Opção 2` - Apaga o cliente pelo CPF.
+
+Dados solicitados:
+- CPF
+- Senha
+
+`Opção 3` - Serve para debitar um valor da conta do cliente.
+
+Dados solicitados:
+- CPF
+- Senha
+- Valor
+
 O débito somente pode ser feito se o CPF e a senha estiverem corretos.
 
-Opção 4 - Deposita um valor na conta do cliente
+`Opção 4` - Deposita um valor na conta do cliente.
+
 Dados solicitados:
 
-CPF
-Valor
-Opção 5 - Extrato - exibe o histórico de todas as operações realizadas na conta, com datas e valores, incluindo as tarifas.
+- CPF
+- Valor
+
+`Opção 5` - Exibe o histórico (extrato) de todas as operações realizadas na conta, com datas e valores, incluindo as tarifas.
+
 Dados solicitados:
 
-CPF
-Senha
+- CPF
+- Senha
+
 O extrato só pode ser exibido se o CPF e senha estiverem corretos!
 
-Opção 6 - Transferência - realiza a transferência de uma valor determinado de uma conta (Origem) para outra conta (Destino)
+`Opção 6` - Realiza a transferência de uma valor determinado de uma conta (Origem) para outra conta (Destino).
+
 Dados solicitados:
 
-CPF (Origem)
-Senha (Origem)
-CPF (Destino)
-Valor
+- CPF (Origem)
+- Senha (Origem)
+- CPF (Destino)
+- Valor
+
 O transferência só pode ser realizada se o CPF e a senha da conta de origem estiverem corretos!
 
-Opção 7 - Livre!
+`Opção 7` - Livre!
+
 Crie você mesmo uma operação útil para o sistema bancário
